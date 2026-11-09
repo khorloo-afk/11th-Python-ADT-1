@@ -16,8 +16,14 @@ def IsFull():
 
 # Exercise 2
 def Push(Item):
-    # Write your code here
-    pass
+    if IsFull():
+        return False
+
+    global TopOfStack
+    TopOfStack += 1
+
+    Stack[TopOfStack] = Item
+    return True
 
 
 # Exercise 3
