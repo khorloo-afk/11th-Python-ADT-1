@@ -21,8 +21,6 @@ def Push(Item):
 
     Stack[TopOfStack] = Item
     return True
-
-
 # Exercise 3
 def Pop():
     # Write your code here
@@ -42,6 +40,14 @@ def Size():
 
 # Exercise 5
 def ReverseWord(Word):
-    # Write your code here
-    pass
+    stack = []
+    TopOfStack = -1
+    for char in Word:
+        stack.append(char)
+        TopOfStack += 1
+    new_string = ""
+    while TopOfStack != -1:
+        new_string += stack.pop()
+        TopOfStack -= 1
+    return new_string
 
