@@ -4,7 +4,11 @@
 # Exercise 1
 Stack = []
 TopOfStack = -1
-# Write code here to fill Stack with 10 elements, all -1
+def IsEmpty():
+    return TopOfStack == -1
+def IsFull():
+  return TopOfStack == 9
+
 
 
 def IsEmpty():
