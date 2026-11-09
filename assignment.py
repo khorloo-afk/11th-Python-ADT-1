@@ -42,12 +42,13 @@ def Size():
 def ReverseWord(Word):
     stack = []
     TopOfStack = -1
-    for char in Word:
-        stack.append(char)
+    for letter in Word:
+        stack.append(letter)
         TopOfStack += 1
-    new_string = ""
-    while TopOfStack != -1:
-        new_string += stack.pop()
+    reversed_word = ""
+    while TopOfStack >= 0:
+        letter = stack.pop()
+        reversed_word += letter
         TopOfStack -= 1
-    return new_string
+    return reversed_word
 
