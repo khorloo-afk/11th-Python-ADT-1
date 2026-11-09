@@ -2,7 +2,7 @@
 # Do NOT use .append() or .pop() inside Push() and Pop() - move TopOfStack yourself.
 
 # Exercise 1
-Stack = ["-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1"]
+Stack = []
 TopOfStack = -1
 
 def IsEmpty():
