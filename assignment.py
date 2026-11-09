@@ -4,21 +4,14 @@
 # Exercise 1
 Stack = []
 TopOfStack = -1
-def IsEmpty():
-    return TopOfStack == -1
-def IsFull():
-  return TopOfStack == 9
-
 
 
 def IsEmpty():
-    # Write your code here
-    pass
+    return TopOfStack == -1s
 
 
 def IsFull():
-    # Write your code here
-    pass
+  return TopOfStack == 9
 
 
 # Exercise 2
