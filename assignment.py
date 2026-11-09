@@ -26,6 +26,7 @@ def Pop():
     global TopOfStack
     if IsEmpty():
         return "-1"
+        
 def IsEmpty():
     return TopOfStack < 0
     item = Stack[TopOfStack]
@@ -51,6 +52,7 @@ def ReverseWord(Word):
         stack.append(letter)
         TopOfStack += 1
     reversed_word = ""
+    
     while TopOfStack >= 0:
         letter = stack.pop()
         reversed_word += letter
