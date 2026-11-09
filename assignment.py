@@ -22,12 +22,12 @@ def Push(Item):
     Stack[TopOfStack] = Item
     return True
 # Exercise 3
+        Stack = [10, 20, 30, "-1"]
+TopOfStack = 2
 def Pop():
     global TopOfStack
     if IsEmpty():
         return "-1"
-        Stack = [10, 20, 30, "-1"]
-TopOfStack = 2
 def IsEmpty():
     return TopOfStack < 0
     item = Stack[TopOfStack]
