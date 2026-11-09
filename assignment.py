@@ -5,14 +5,11 @@
 Stack = []
 TopOfStack = -1
 
-
 def IsEmpty():
-    return TopOfStack == -1s
-
+    return TopOfStack == -1
 
 def IsFull():
   return TopOfStack == 9
-
 
 # Exercise 2
 def Push(Item):
