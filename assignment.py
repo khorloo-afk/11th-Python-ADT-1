@@ -41,8 +41,9 @@ def Peek():
 
 
 def Size():
-    # Write your code here
-    pass
+    if TopOfStack < 0:
+        return 0
+    return TopOfStack + 1
 
 
 # Exercise 5
