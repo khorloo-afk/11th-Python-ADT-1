@@ -35,8 +35,9 @@ def IsEmpty():
 
 # Exercise 4
 def Peek():
-    # Write your code here
-    pass
+    if TopOfStack < 0:
+        return "-1"
+    return stack[TopOfStack]
 
 
 def Size():
